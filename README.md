@@ -9,3 +9,9 @@
 ## Quick Start
 
 Go to the releases and download the right binary for your device
+
+### macOS (Apple Silicon)
+
+Apple will likely flag the binary as malware to get around this open a terminal at the location of the binary and run:
+
+- xattr -d com.apple.quarantine air_demo
